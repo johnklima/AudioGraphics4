@@ -371,3 +371,102 @@ Received Import Request.
   path: Assets/Plugins/FMOD/Resources/FMODStudioSettings.asset
   artifactKey: Guid(a868935671b303747a3ffa379877a9f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Plugins/FMOD/Resources/FMODStudioSettings.asset using Guid(a868935671b303747a3ffa379877a9f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e920b0459f652fb13770b2d7485b3f7') in 0.004379 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008511 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\AudioGraphics4\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\AudioGraphics4\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.08 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.239 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1240ms)
+		BeginReloadAssembly (122ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (1037ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (256ms)
+				TypeCache.Initialize (244ms)
+					TypeCache.ScanAssembly (237ms)
+				ResolveRequiredComponents (12ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (489ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (147ms)
+				ProcessInitializeOnLoadAttributes (281ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (34ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 10.24 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6004 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 98 unused Assets / (3.4 MB). Loaded Objects now: 6879.
+Memory consumption went from 0.96 GB to 0.96 GB.
+Total: 3.963900 ms (FindLiveObjects: 0.397000 ms CreateObjectMapping: 0.278200 ms MarkObjects: 2.816700 ms  DeleteObjects: 0.471100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3292.345253 seconds.
+  path: Assets/Settings/ForwardRenderer.asset
+  artifactKey: Guid(3fb37db26fe4d014380e5ce4dc9114a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/ForwardRenderer.asset using Guid(3fb37db26fe4d014380e5ce4dc9114a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bf78bc9080107b333e67d28a2cc02f4') in 0.023252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 81.455589 seconds.
+  path: Assets/SkyBox Volume 2/DeepSpaceBlue
+  artifactKey: Guid(4baefb34c2b424e32952fafbcade0fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkyBox Volume 2/DeepSpaceBlue using Guid(4baefb34c2b424e32952fafbcade0fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0a538bb25eac5afcd7d33af3095c68f') in 0.006179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.132612 seconds.
+  path: Assets/SkyBox Volume 2/DeepSpaceBlue/backImage.png
+  artifactKey: Guid(d733e8221be901b429039b23c12749c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkyBox Volume 2/DeepSpaceBlue/backImage.png using Guid(d733e8221be901b429039b23c12749c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f84a9fb4f8b1855d3409da756ef73e7') in 0.087476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/SkyBox Volume 2/DeepSpaceBlue/DSB.mat
+  artifactKey: Guid(e980bc7fbb00dc34b86b95ac842d1920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkyBox Volume 2/DeepSpaceBlue/DSB.mat using Guid(e980bc7fbb00dc34b86b95ac842d1920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c14e2bcb96f87d294be54fd404d2d1f1') in 0.796137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.288747 seconds.
+  path: Assets/HDRPDefaultResources/DefaultSettingsVolumeProfile.asset
+  artifactKey: Guid(746d6397de861624a8b63248caeb4294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDRPDefaultResources/DefaultSettingsVolumeProfile.asset using Guid(746d6397de861624a8b63248caeb4294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35238ba249be115884bbb52deb3930d9') in 0.007764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.963823 seconds.
+  path: Assets/Materials/green.mat
+  artifactKey: Guid(3d2ba132ab1e44f40852a1744bbd637e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/green.mat using Guid(3d2ba132ab1e44f40852a1744bbd637e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03be95908def6745901d4ee5202e95e3') in 0.035378 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
